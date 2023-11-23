@@ -27,4 +27,4 @@ If you use this project for any academic work, cite this repository following yo
 Note that this project falls under the GNU General Public License 3.0. Using it for commerical purposes is forbidden entirely and will lead to future conflicts with us.
 
 ## Sources
-<a name="academichonesty">1</a>: Source: https://www.scribbr.com/plagiarism/academic-dishonesty/
+<a name="academichonesty">1</a>: https://www.scribbr.com/plagiarism/academic-dishonesty/
