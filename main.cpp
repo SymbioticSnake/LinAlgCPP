@@ -6,11 +6,11 @@
 using namespace std;
 
 int main() {
-    Matrix matrix;
-    double identity[2][2] = {1, 0, 0, 1};
+    ofstream fout("output.txt");
 
-    matrix.set_row(identity[0], 0);
-    matrix.set_row(identity[1], 1);
-
-    matrix.out();
+    Matrix I2;
+    I2.cin_matrix();
+    
+    Matrix M;
+    M = I2 + I2;
 }

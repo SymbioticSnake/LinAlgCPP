@@ -1,6 +1,8 @@
 {
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
-        "cstdlib": "cpp"
+        "cstdlib": "cpp",
+        "functional": "cpp",
+        "iostream": "cpp"
     }
 }
