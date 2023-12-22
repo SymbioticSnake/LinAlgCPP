@@ -1,4 +1,5 @@
-#include "Matrix.cpp"
+#include "classes/Matrix.cpp"
+#include "classes/ComplexNumber.cpp"
 #include <cmath>
 #include <cstdlib>
 #include <iostream>
@@ -6,11 +7,16 @@
 using namespace std;
 
 int main() {
-    ofstream fout("output.txt");
+    ComplexNumber c1(-16, 0);
+    c1.root(3, roots);
 
-    Matrix I2;
-    I2.cin_matrix();
-    
-    Matrix M;
-    M = I2 + I2;
+    int power = 0;
+    cout << "Enter power to calculate root: ";
+    cin >> power;
+    c1.root(power, roots);
+
+    for (int i = 0; i < power; i++) {
+        cout << roots[i] << endl;
+    }
+    return EXIT_SUCCESS;
 }

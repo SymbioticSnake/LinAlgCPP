@@ -1,5 +1,5 @@
 # LinAlgCPP
-A project to code all of the knowledge in the University of Waterloo's MATH 115 course (Linear Algebra for Engineering) in C++.
+A project to code all the knowledge in the University of Waterloo's MATH 115 course (Linear Algebra for Engineering) in C++.
 
 ## Introduction
 The following numerical structures are taught in MATH 115 at the University of Waterloo:
@@ -22,7 +22,7 @@ The goal of this project is not to build a working product. Rather, it is meant 
 - Deceit
 - Plagiarism
 
-If you use this project for any academic work, cite this repository following your course's citation style.
+If you use this project for any academic work, cite this repository using your course's citation style.
 
 Note that this project falls under the GNU General Public License 3.0. Using it for commerical purposes is forbidden entirely and will lead to future conflicts with us.
 
