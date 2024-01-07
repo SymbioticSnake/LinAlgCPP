@@ -75,6 +75,22 @@ void Matrix::swap_row(int num_1, int num_2) {
     }
 }
 
+double Matrix::determinant() {
+    double determinant;
+
+    if (m != n) {
+        std::cout << "Cannot calculate determinant of matrix";
+        determinant = -100000000;
+    }
+    else if (m == 2)
+        determinant = get_entry(1,1) * get_entry(2,2) - get_entry(1,2) * get_entry(2,1);
+    else {
+
+    }
+
+    return determinant;
+}
+
 Matrix& Matrix::operator=(Matrix const& other) {
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < n; j++)

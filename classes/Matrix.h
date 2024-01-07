@@ -34,7 +34,7 @@ public:
     void set_entry(double entry, int row, int col) { matrix[row][col] = entry; }
 
     void swap_row(int num_1, int num_2);
-    void determinant();
+    double determinant();
 
     /* Operators */
     Matrix operator+(Matrix const& other) const;
